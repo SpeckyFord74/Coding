@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+
+<body>
+    <h1>Interactive Quiz</h1>
+    <div class="question">
+        <h3>Q1) How many US states are there? </h3>
+        <div class="options">
+            <label><input type="radio" name="Q1" value="a">A) 72</label>
+            <label><input type="radio" name="Q1" value="b">B) 50</label>
+            <label><input type="radio" name="Q1" value="c">C) 28</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <h3>Q2) What is the capital of England? </h3>
+        <div class="options">
+            <label><input type="radio" name="Q2" value="a">A) London</label>
+            <label><input type="radio" name="Q2" value="b">B) Rome</label>
+            <label><input type="radio" name="Q2" value="c">C) Washington DC</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <h3>Q3) What is Johnny Depp's Job? </h3>
+        <div class="options">
+            <label><input type="radio" name="Q3" value="a">A) Chef</label>
+            <label><input type="radio" name="Q3" value="b">B) Actor</label>
+            <label><input type="radio" name="Q3" value="c">C) Painter</label>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Q4) What year did The Witcher 3 come out? </h3>
+        <div class="options">
+            <label><input type="radio" name="Q4" value="a">A) 2020</label>
+            <label><input type="radio" name="Q4" value="b">B) 2018</label>
+            <label><input type="radio" name="Q4" value="c">C) 2015</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <h3>Q5) How many days in a year? </h3>
+        <div class="options">
+            <label><input type="radio" name="Q5" value="a">A) 365</label>
+            <label><input type="radio" name="Q5" value="b">B) 342</label>
+            <label><input type="radio" name="Q5" value="c">C) 199</label>
+        </div>
+    </div>
+
+    <button onclick="CheckAnswers()">Submit</button>
+
+    <div class="result" id="result"></div>
+    <script src="scripts/app.js"></script>
+
+</body>
+</html>
