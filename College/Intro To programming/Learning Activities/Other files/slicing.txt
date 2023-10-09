@@ -1,0 +1,10 @@
+Grab a subsection of a string
+Syntax:
+    [start:stop:step]
+
+start is a numerical index for the slice start
+stop us the index you will go up to but not include
+step is the size of the jump you take
+
+i.e:
+    "Corey Ford"[0:5:1]

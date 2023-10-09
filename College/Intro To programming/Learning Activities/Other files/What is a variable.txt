@@ -1,0 +1,3 @@
+A variable is a placeholder for data that can change based on user interaction. An example of this is an integer or string, which can change if the user wants to add remove or alter the stored data.
+
+Proper answer: A variable is a place in memory that holds data temporarily which can be changed.

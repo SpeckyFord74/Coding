@@ -1,3 +1,0 @@
-Student:Name: gAge: 4Major: h 
-Student:Name: fAge: 3Major: f 
-Student:Name: hAge: 4Major: h 

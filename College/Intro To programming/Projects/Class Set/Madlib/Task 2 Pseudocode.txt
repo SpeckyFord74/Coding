@@ -1,0 +1,64 @@
+SEND 'Enter a noun: ' TO DISPLAY
+RECIEVE noun1 FROM (STRING) KEYBOARD
+
+SEND 'Enter a noun: ' TO DISPLAY
+RECIEVE noun2 FROM (STRING) KEYBOARD
+
+SEND 'Enter a noun: ' TO DISPLAY
+RECIEVE noun3 FROM (STRING) KEYBOARD
+
+SEND 'Enter a noun: ' TO DISPLAY
+RECIEVE noun4 FROM (STRING) KEYBOARD
+
+SEND 'Enter a noun: ' TO DISPLAY
+RECIEVE noun5 FROM (STRING) KEYBOARD
+
+SEND 'Enter a noun: ' TO DISPLAY
+RECIEVE noun6 FROM (STRING) KEYBOARD
+
+
+SEND 'Enter an adjective: ' TO DISPLAY
+RECIEVE adjective1 FROM (STRING) KEYBOARD
+
+SEND 'Enter an adjective: ' TO DISPLAY
+RECIEVE adjective2 FROM (STRING) KEYBOARD
+
+SEND 'Enter an adjective: ' TO DISPLAY
+RECIEVE adjective3 FROM (STRING) KEYBOARD
+
+SEND 'Enter an adjective: ' TO DISPLAY
+RECIEVE adjective4 FROM (STRING) KEYBOARD
+
+
+SEND 'Enter a name: ' TO DISPLAY
+RECIEVE name FROM (STRING) KEYBOARD
+
+SEND 'Enter a Color: ' TO DISPLAY
+RECIEVE color FROM (STRING) KEYBOARD
+
+SEND 'Enter an adverb: ' TO DISPLAY
+RECIEVE adverb FROM (STRING) KEYBOARD
+
+SEND 'Enter a verb: ' TO DISPLAY
+RECIEVE verb FROM (STRING) KEYBOARD
+
+SEND 'Enter a verb ending in -ed: ' TO DISPLAY
+RECIEVE ed_verb FROM (STRING) KEYBOARD
+
+SEND 'Enter a number: ' TO DISPLAY
+RECIEVE num FROM (STRING) KEYBOARD
+
+
+SEND 'OK! Here is your story' TO DISPLAY
+
+SEND f'Title: "The Mysterious {noun1}"
+
+Once upon a time in a {adjective1} {noun1}, a {noun2} disappeared.
+
+{name}, the {adjective2} {noun3}, {adverb} {verb} to find it.
+
+After {num} {adjective3} days, they discovered a {noun1} next to a [color] {noun4}.
+
+They {ed_verb} the {noun5} and celebrated with a {adjective4} feast.
+
+The end.' TO DISPLAY
